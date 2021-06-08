@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import './FrontPage.css'
+import './showAll.css'
 import { NavLink, useHistory } from "react-router-dom";
 import { deleteTask, fetchData, updateTask} from '../../services/service';
 export default function FrontPage() {
